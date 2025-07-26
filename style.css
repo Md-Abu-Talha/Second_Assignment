@@ -114,3 +114,36 @@ nav{
     background-color: #d4b527;
     transition: 0.1s;
 }
+
+
+.store-section{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 150px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+
+.trusted-badge{
+    position: relative;
+    top: -730px;
+    right: -350px;
+    height: 286px;
+    width: 286px;
+}
+
+.store-title{
+    font-size: 3.1rem;
+    padding: 50px;
+    margin-top: -10px;
+    margin-left: 30px;
+}
+
+.store-note{
+    font-size: 1.5rem;
+    margin-left: 65px;
+    margin-top: -35px;
+    
+}
