@@ -248,3 +248,36 @@ nav{
     color: white;
     cursor: pointer;
 }
+
+
+
+footer{
+    height: 350px;
+    width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+.foot-item-1 li{
+    list-style: none;
+}
+
+.foot-item-1 a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.foot-item-2 li{
+    list-style: none;
+}
+
+.foot-item-2 a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
+.foot-logo-2 img{
+    margin-left: 20px;
+}
