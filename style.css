@@ -281,3 +281,143 @@ footer{
 .foot-logo-2 img{
     margin-left: 20px;
 }
+
+
+
+
+@media screen and (max-width: 576px) {
+
+    #home,
+    #shop,
+    #about-us{
+        display: none;
+    }
+
+    nav{
+        margin: 1rem;
+    }
+
+    .hero-section{
+        flex-direction:column-reverse;
+        margin: 20px 20px;
+
+    }
+
+    .hero-title{
+        font-size: 1.8rem;
+    }
+
+    .hero-description{
+        font-size: 0.8rem;
+    }
+    .hero-img{
+        
+    }
+
+    .our-plants{
+        margin: 20px 20px;
+    }
+    .our-plants-title{
+        font-size: 1.8rem;
+    }
+    .our-plants-description{
+        font-size: 0.8rem;
+    }
+
+    .card-section{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+    
+    .card img{
+        height: 169px;
+        width: 170px;
+    }
+
+    .btn{
+        height: 50px;
+        width: 170px;
+    }
+
+    .store-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+    .trusted-badge{
+        display: none;
+    }
+
+    .store-img{
+        width: 170px;
+        
+    }
+    .store-note{
+        margin: auto;
+        font-size: 0.8rem;
+        margin-bottom: 20px;
+
+    }
+    .store-title{
+        font-size: 1.6rem;
+        margin: 2px 2px;
+    }
+
+
+
+    .latest-section{
+        margin: 20px;
+    }
+
+    .latest-section-title{
+        font-size: 1.5rem;
+    }
+
+    .latest-section-description{
+        font-size: 0.8rem;
+    }
+
+
+    .latest-card-section{
+        flex-direction: column;
+    }
+
+    .latest-card-3{
+        height: 200px;
+        width: 365px;
+        font-size: 14px;
+    }
+
+    .lc-2{
+        margin-top: 70px;
+    }
+
+
+
+    .join-section{
+        height: 275px;
+        width: 390px;
+    }
+
+    .join-title{
+        font-size: 20px;
+        padding-top: 110px;
+    }
+
+    .email{
+        height: 50px;
+        width: 215px;
+    }
+
+    .sub-btn{
+        height: 52px;
+        width: 98px;
+    }
+
+
+
+    footer{
+        flex-direction: column;
+    }
+}
