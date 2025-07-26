@@ -63,3 +63,54 @@ nav{
 .hero-description{
     font-size: 1.5rem;
 }
+
+
+
+.our-plants{
+    text-align: center;
+    margin: 50px 150px;  
+}
+
+.our-plants-title{
+    font-size: 3.1rem;
+}
+
+.our-plants-description{
+    font-size: 1.5rem;
+}
+
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin: 50px 150px;
+
+}
+
+.card{
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #8987A1;
+}
+
+.card img{
+    height: 322px;
+    width: 270px;
+    border-radius: 10px;
+}
+
+.btn{
+    height: 50px;
+    width: 270px;
+    border-radius: 10px;
+    border: none;
+    background-color: #E95A08;
+    cursor: pointer;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #d4b527;
+    transition: 0.1s;
+}
