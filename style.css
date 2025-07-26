@@ -214,3 +214,37 @@ nav{
 .lc-2{
     margin-top: 150px;
 }
+
+
+
+
+.join-section{
+    height: 530px;
+    width: 1440px;
+    background-image: url(/assets/news-letter-bg.png);
+    text-align: center;
+    margin-top: 150px;
+    
+}
+
+.join-title{
+    color: white;
+    font-size: 3.1rem;
+    padding-top: 250px;
+}
+
+.email{
+    height: 50px;
+    width: 645px;
+    border: none;
+}
+
+.sub-btn{
+    height: 52px;
+    width: 185px;
+    margin-left: -5.2px;
+    border: none;
+    background-color: #E95A08;
+    color: white;
+    cursor: pointer;
+}
